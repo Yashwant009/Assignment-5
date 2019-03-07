@@ -3,7 +3,7 @@
 vec1 = c(rownames(mtcars[1:15,]))
 vec2 = c(rownames(mtcars[11:25,]))
 
-setequal(vec1,vec2)
+identical(vec1,vec2)
 # 2. Sort the character vector in ascending order and descending order
 
 vec1 = c(rownames(mtcars[1:15,]))
