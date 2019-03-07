@@ -19,4 +19,4 @@ names(num_vowels) = vowels     # adding names to the strings
 
 sum(num_vowels) # Total number of Vowels 
 
-barplot(num_vowels, main = "Number of Vowels", ylim= c(0,70), xlab = "Vowels", ylab = "Frequency", col = "steelblue")
+barplot(num_vowels, main = "Number of Vowels", ylim= c(0,70), xlab = "Vowels", col = "steelblue")
